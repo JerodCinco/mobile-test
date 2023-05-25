@@ -44,7 +44,7 @@
 
             }
 
-            .dropdownmenu li:hover a
+            .dropdownmenu li:active a
             {
                 background: #34495e;
             }
