@@ -38,7 +38,7 @@
         transition: all 0.25s ease;
         border-radius: 0.5em;
     }
-    .dropdownmenu li:active a, .dropdownmenu li:hover a
+    .dropdownmenu li:hover a, .dropdownmenu li:active a
     {
         background: #34495e;
     }
@@ -54,6 +54,7 @@
         z-index: 1;
         background: none;
     }
+
     li:hover ul#submenu, li:active ul#submenu  
     {
         opacity: 1;
