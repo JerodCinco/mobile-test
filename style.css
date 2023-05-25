@@ -1,0 +1,74 @@
+            body
+            {
+                background: #333;
+            }
+
+            .dropdownmenu ul, .dropdownmenu li
+            {
+                margin: 0;
+                padding: 0;
+            }
+
+            .dropdownmenu ul
+            {
+                background: gray;
+                list-style: none;
+                width: 100%;
+            }
+
+            .dropdownmenu li
+            {
+                /* 
+                places an element on the left or right side of its container, 
+                allowing text and inline elements to wrap around it 
+                */
+                float: left;
+                position: relative;
+                width: 30%;
+            }
+
+            .dropdownmenu a
+            {
+                /* background: #30a6e6; */
+                background: #2a2f3b;
+                color: white;
+                display: block;
+                font-weight: 400;
+                font-size: 13px;
+                font-family: 'Poppins', sans-serif;
+                padding: 15px 65px;
+                text-align: center;
+                text-decoration: none;
+                transition: all 0.25s ease;
+                border-radius: 0.5em;
+
+            }
+
+            .dropdownmenu li:hover a
+            {
+                background: #34495e;
+            }
+
+            #submenu
+            {
+                left: 0;
+                opacity: 0;
+                position: absolute;
+                top: 35px;
+                visibility: hidden;
+                z-index: 1;
+                background: none;
+            }
+
+            li:hover ul#submenu
+            {
+                opacity: 1;
+                top: 80px;
+                visibility: visible;
+            }
+
+            #submenu li
+            {
+                float: none;
+                width: 100%;
+            }
